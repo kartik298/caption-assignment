@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+Video Caption Editor
+A React-based web application that allows users to add captions to videos from any source.
+Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Universal Video Support: Works with YouTube, Vimeo, Dailymotion, Facebook, Twitch, and direct video files
+Easy Caption Creation: Add text captions with precise start and end timestamps
+Real-time Preview: See captions appear during video playback exactly as they will for viewers
+Time Capture: "Set Current" buttons to easily capture the exact current playback time
+Caption Management: Edit, delete, and reorder captions as needed
+Export Functionality: Download captions as standard WebVTT files
+Responsive Design: Works on desktop and mobile devices
 
-## Available Scripts
+How to Use
 
-In the project directory, you can run:
+Enter Video URL: Paste any video URL (YouTube, direct video link, etc.)
+Load Video: Click the "Load Video" button to load the video player
+Add Captions:
 
-### `npm start`
+Enter caption text
+Set start and end times (manually or using "Set Current" while playing)
+Click "Add Caption" to save
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Edit Captions: Use the edit and delete buttons to modify existing captions
+Export: Download your completed captions as a WebVTT file
 
-### `npm test`
+Technical Details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Built with React (hooks-based architecture)
+No external dependencies or CSS frameworks
+Uses inline styles for maximum compatibility
+Implements responsive design with custom media queries
+Automatically detects video platform from URL
 
-### `npm run build`
+Getting Started
+bashCopy# Clone the repository
+git clone https://github.com/kartik298/caption-assignment.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Navigate to the project directory
+cd caption-assignment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the development server
+npm start
+License
+MIT
+Acknowledgements
+Created as part of a project to improve video accessibility.
